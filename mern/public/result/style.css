@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 15px;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+}
+.graph{
+    position: relative;
+    left: 4vw;
+    width: 90vw;
+    aspect-ratio: 1.4;
+    background: url("http://media.pennlive.com/news/photo/2015/11/17/linegraph-mentalillness-3a06ebaf9d75e582.jpeg");
+    background-size: cover;
+}
+.ques_review {
+    width: 50vw;
+    aspect-ratio: 1.8;
+    border: 1px solid red;
+}
+.health_issue{
+    width: 50vw;
+    aspect-ratio: 1.8;
+    border: 1px solid red;
+}
+.issues {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 97.8vw;
+    gap: 15px;
+    padding:15px;
+}
+.disorder {
+    flex: 1 1 30%;
+    max-width: 230px;
+    aspect-ratio: 1;
+    background: green;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.disorder:hover {
+    transition: all .3s ease;
+    transform: scale(1.05);
+}
+.first {
+    background: url("https://thumbs.dreamstime.com/b/mental-disorder-vector-person-bad-mood-phobia-fear-mental-disorder-psychological-problems-girl-scared-monsters-vector-184844999.jpg");
+    background-size: contain;
+}
+.second {
+    background: url("https://www.pinclipart.com/picdir/big/564-5649692_social-anxiety-disorder-clipart-png-download.png");
+    background-size: contain;
+}
+.third {
+    background: url("https://cdn4.iconfinder.com/data/icons/unemployment-2/512/MentalHealthDepression-clinicaldepression-unemployment-depressions-sad-despair-patients-512.png");
+    background-size: contain;
+}
+.fourth {
+    background: url("https://static.vecteezy.com/system/resources/previews/002/921/531/non_2x/psychologist-doctor-consulting-patient-in-therapy-session-on-line-psychotherapy-counseling-concept-mental-health-depression-human-mental-problem-solutions-modern-flat-cartoon-style-vector.jpg");
+    background-size: cover;
+}
+.fifth {
+    background: url("https://uniquemindcare.com/wp-content/uploads/2020/06/Treat-Anxiety-Social.png");
+    background-size: cover;
+}
+.sixth {
+    background: url("https://static.vecteezy.com/system/resources/previews/001/110/647/large_2x/bipolar-boy-holding-with-masks-with-different-moods-vector.jpg");
+    background-size: contain;
+}
+.seventh {
+    background: url("https://media.istockphoto.com/vectors/dementia-of-aged-person-structure-of-human-brain-vector-id844402068?k=6&m=844402068&s=612x612&w=0&h=W-Uj4q47NaqKzAtDztHKq9G3bUgVJmgOm3nB3op7MEk=");
+    background-size: contain;
+}
+.eighth {
+    background: url("https://caramengatasi.id/wp-content/uploads/2021/03/20944875-scaled.jpg");
+    background-size: contain;
+}
+.ninth {
+    background: url("https://media.istockphoto.com/id/1053020482/vector/ocd-obsessive-compulsive-disorder.jpg?s=612x612&w=0&k=20&c=t9JqASscQzwQ0FG48Q_scyFqDNtxvxnJddvrh05cZOs=");
+    background-size: contain;
+}
+.tenth {
+    background: url("https://media.istockphoto.com/vectors/robot-in-businesswomen-head-concept-business-technology-vector-vector-id850503126?k=6&m=850503126&s=612x612&w=0&h=UkUARFBYTojqFltzTOZWjTuBvpAkT9wh2ND1YK57MVM=");
+    background-size: contain;
+}
+.eleventh {
+    background: url("https://media.istockphoto.com/vectors/girl-sitting-hugging-knees-2-vector-id1264874998?k=6&m=1264874998&s=612x612&w=0&h=hAudSmswAAwl31Ce2YbwA68nq8M2C2vvo-cgNwrFMLk=");
+    background-size: contain;
+}
+.twelvth {
+    background: url("https://media.istockphoto.com/vectors/pregnant-woman-feel-depress-vector-id1134602178?k=6&m=1134602178&s=170667a&w=0&h=a7R2ri2ceVubue1pkG7MC49iIrkmRMtOzjEfRC4_wWc=");
+    background-size: contain;
+}
+.thirteenth {
+    background: url("https://cdn1.vectorstock.com/i/1000x1000/79/35/girl-suffers-from-panic-attack-cartoon-style-vector-23527935.jpg");
+    background-size: contain;
+}
+.forteenth {
+    background: url("https://static.vecteezy.com/system/resources/previews/002/445/471/large_2x/young-woman-cartoon-character-with-bipolar-disorder-or-borderline-personality-disorder-vector.jpg");
+    background-size: contain;
+}
+.fifteenth {
+    background: url("https://journals.lww.com/neurotodayonline/PublishingImages/14606667655_3a30c42b92_z.jpg");
+    background-size: contain;
+}
+.consultancy{
+    width: 97vw;
+    height: 80vh;
+    background: url(../images/workplace-doctor-stethoscopeclaim-form_861973-4064.jpg);
+    background-size: cover;
+    
+}
+.consultancy img{
+   border-radius: 20px;
+}
+.sit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 350px;
+    gap: 30px;
+}
