@@ -120,7 +120,10 @@ const questions = [
         question: " Have you ever received treatment for depression, anxiety, or other mental health problem in the past? \n (Treatment might be tablets, or counselling, or seeing a psychiatrist or other mental health professional)",
         answers: [
             {text: "Yes", correct: true},
-            {text: "No", correct: false},
+            {text: "No", correct: false}, 
+            {text: "Less than usual", correct: false},
+            {text: "Much less than usual", correct: false}
+        
         ]
     }
 ]
@@ -206,7 +209,7 @@ nextButton.addEventListener("click", () =>{
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     }else{
-        startQuiz();
+        window.location.href ="../result/result.html"
     }
 });
 
